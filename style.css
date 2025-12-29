@@ -1,0 +1,22 @@
+body {font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif; background:#f4f7f8; margin:0; padding:0;}
+h1,h2,h3{text-align:center;color:#333;}
+a{text-decoration:none;}
+input[type=text], input[type=email], input[type=password], input[type=submit] {width:100%; padding:12px; margin:6px 0; border-radius:5px; border:1px solid #ccc;}
+input[type=submit]{background:#007BFF;color:white;border:none;cursor:pointer;}
+input[type=submit]:hover{background:#0056b3;}
+.success{color:green;text-align:center;}
+.error{color:red;text-align:center;}
+.login-container, .form-container, .table-container, .dashboard-container {max-width:800px; margin:40px auto; padding:20px; background:#fff; border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.1);}
+.logo {width:80px; display:block; margin:0 auto 10px;}
+.logout-btn{float:right;background:#dc3545;color:white;padding:10px 20px;border-radius:5px;margin-right:20px;}
+.logout-btn:hover{background:#b02a37;}
+.menu{display:flex;justify-content:center;gap:40px;margin-top:50px;}
+.menu-card{background:#007BFF;color:white;padding:40px 60px;border-radius:10px;font-size:1.2em;transition:0.3s;}
+.menu-card:hover{background:#0056b3;transform:scale(1.05);}
+table{width:100%;border-collapse:collapse;margin-top:20px;}
+th, td{padding:12px;text-align:center;border-bottom:1px solid #ddd;}
+th{background:#007BFF;color:white;}
+.edit-btn{color:#ffc107;}
+.delete-btn{color:#dc3545;}
+.back-btn{display:block;margin-top:20px;text-align:center;color:#007BFF;}
+footer{text-align:center;margin-top:20px;color:#555;}
